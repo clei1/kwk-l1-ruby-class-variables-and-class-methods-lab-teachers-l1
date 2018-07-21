@@ -36,9 +36,8 @@ class Song
         genre_c[g] = 1
       end
     end
-
     return genre_c
   end
 
-  
+
 end
