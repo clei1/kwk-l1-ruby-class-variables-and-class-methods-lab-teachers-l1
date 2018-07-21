@@ -20,11 +20,11 @@ class Song
   end
 
   def self.genres
-    return @@genres
+    return @@genres.uniq
   end
 
   def self.artists
-    return @@artists
+    return @@artists.uniq
   end
 
   def genre_count
