@@ -8,10 +8,10 @@ class Song
     @artist = a
     @genre = g
 
-    count += 1
+    @@count += 1
   end
 
   def count
-    return count
+    return @@count
   end
 end
