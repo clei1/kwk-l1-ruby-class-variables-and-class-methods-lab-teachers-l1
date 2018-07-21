@@ -12,6 +12,7 @@ class Song
 
     @@count += 1
     @@genres.push(g)
+    @@artists.push(g)
   end
 
   def count
