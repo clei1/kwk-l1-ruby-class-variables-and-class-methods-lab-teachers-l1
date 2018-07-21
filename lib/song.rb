@@ -10,6 +10,7 @@ class Song
     @genre = g
 
     @@count += 1
+    @@genres.push(g)
   end
 
   def count
