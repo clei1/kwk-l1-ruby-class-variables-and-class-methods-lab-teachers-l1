@@ -22,4 +22,8 @@ class Song
   def genres
     return @@genres
   end
+
+  def artists
+    return @@artists
+  end
 end
