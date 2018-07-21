@@ -28,6 +28,8 @@ class Song
   end
 
   def genre_count
-    
+    @@genres.each do |g|
+      
+    end
   end
 end
