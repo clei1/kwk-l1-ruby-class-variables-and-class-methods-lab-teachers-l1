@@ -30,7 +30,10 @@ class Song
   def genre_count
     genre_c = {}
     @@genres.each do |g|
-      
+      if genre_c.has_key(g)
+        genre_c[g] += 1
+      else
+        genre_c[g] = 1
     end
   end
 end
