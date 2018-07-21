@@ -34,6 +34,7 @@ class Song
         genre_c[g] += 1
       else
         genre_c[g] = 1
+      end
     end
   end
 end
